@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="header">
+    <text class="title">深度学习示例</text>
+  </view>
+
+  <!-- Python代码展示 -->
+  <view class="code-container">
+    <text class="code-title">Python 代码</text>
+    <view class="code-block">
+      <text selectable="true">{{pythonCode}}</text>
+    </view>
+  </view>
+
+  <!-- 训练结果图表展示 -->
+  <view class="chart-container">
+    <text class="chart-title">训练结果</text>
+    <image class="chart-image" src="{{chartUrl}}" mode="widthFix"></image>
+  </view>
+</view>

@@ -1,0 +1,145 @@
+/* 容器样式 */
+.container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+
+}
+
+/* 标题样式 */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* 时间轴容器样式 */
+.timeline {
+  height: 100vh; /* 使用视口高度 */
+  padding: 10px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8); /* 增加白色半透明背景以突出内容 */
+  border-radius: 10px;
+  overflow-y: hidden; /* 禁用垂直滚动 */
+}
+
+
+/* 事件样式 */
+.event {
+  position: relative;
+  width: 45%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.event::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: #3b5998;
+  border-radius: 50%;
+}
+
+/* 左边事件 */
+.left {
+  float: left;
+  clear: both;
+  border-right: 2px solid #3b5998;
+}
+
+.left::before {
+  left: 100%;
+  margin-left: 10px;
+}
+
+/* 右边事件 */
+.right {
+  float: right;
+  clear: both;
+  border-left: 2px solid #3b5998;
+}
+
+.right::before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+/* 年份样式 */
+.year {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b5998;
+  margin-bottom: 10px;
+}
+
+/* 描述样式 */
+.description {
+  font-size: 16px;
+  color: #666666;
+}
+
+/* 照片样式 */
+.photo {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px 0;
+  object-fit: cover;
+}
+.timeline-text {
+  width: 90%;
+  padding: 42px;
+  margin: 0px 0px;
+  text-align: center;
+  font-size: 16px;
+  color: #3b5998;
+  font-style: italic;
+  position: relative;
+}
+.lastline-text {
+  width: 90%;
+  padding: 0px;
+  margin: 90px 0px;
+  text-align: center;
+  font-size: 16px;
+  color: #3b5998;
+  font-style: italic;
+  position: relative;
+}
+.secondline-text{
+  width: 100%;
+  padding: 0px;
+  margin: 50px 0px;
+  text-align: center;
+  font-size: 16px;
+  color: #3b5998;
+  font-style: italic;
+  position: relative;
+}
+
+/* 背景图片容器样式 */
+.background-overlay {
+  position: fixed; /* 固定背景图片位置 */
+  top: 0;
+  left: 0;
+  width: 100%; /* 占满整个页面宽度 */
+  height: 100%; /* 占满整个页面高度 */
+  z-index: -1; /* 放在最底层，确保内容显示在上方 */
+  opacity: 0.8;
+}
+
+/* 设置 image 标签的样式，使图片覆盖整个背景区域 */
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 确保图片不会拉伸失真，按比例缩放 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}

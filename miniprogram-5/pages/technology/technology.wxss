@@ -1,0 +1,47 @@
+/* 页面容器和布局 */
+.container {
+  padding: 20px;
+  background-color: #BEBEBE;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 代码块样式 */
+.code-container {
+  margin-bottom: 20px;
+}
+
+.code-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.code-block {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* 图表样式 */
+.chart-container {
+  margin-top: 20px;
+}
+
+.chart-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.chart-image {
+  width: 100%;
+}

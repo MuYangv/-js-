@@ -1,0 +1,27 @@
+<view class="container">
+  <!-- 页面标题 -->
+  <view class="title">欢迎来到人工智能发展介绍</view>
+
+  <!-- 中心对齐的文本介绍 -->
+  <view class="center-bold">
+    <text>人工智能的定义和发展历程</text>
+  </view>
+
+  <!-- 卡片导航项 -->
+  <navigator url="/pages/history/history" class="card">
+    <text>一. 发展历程</text>
+  </navigator>
+
+  <navigator url="/pages/scenarios/scenarios" class="card">
+    <text>二. AI 发展历程游戏</text>
+  </navigator>
+
+  <navigator url="/pages/technology/technology" class="card">
+    <text>三. 部分技术展示</text>
+  </navigator>
+
+  <navigator url="/pages/future/future" class="card">
+    <text>四. AI挑战与未来</text>
+  </navigator>
+</view>
+

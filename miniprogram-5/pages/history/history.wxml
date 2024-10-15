@@ -1,0 +1,43 @@
+<view class="container">
+<view class="background-overlay"></view>
+  <view class="title">人工智能发展历程</view>
+    <!-- 1950年事件，显示在左边 -->
+    <view class="event left">
+      <view class="year">1950</view>
+      <image class="photo" src="/images/turing_test.jpg"></image>
+      <view class="description">图灵测试提出。</view>
+    </view>
+    <!-- 右侧文字，显示在右边 -->
+        <view class="timeline-text">一名测试者写下自己的问题，随后将问题以纯文本的形式发送给另一个房间中的一个人与一台机器。测试者根据他们的回答来判断哪一个是真人，哪一个是机器。所有参与测试的人或机器都会被分开。这个测试旨在探究机器能否模拟出与人类相似或无法区分的智能</view>
+    <!-- 1966年事件，显示在右边 -->
+    <view class="event right">
+      <view class="year">1966</view>
+      <image class="photo" src="/images/eliza.jpg"></image>
+      <view class="description">ELIZA对话程序诞生。</view>
+    </view>
+     <!-- 左侧文字，显示在左边 -->
+        <view class="secondline-text">伊莉莎（Eliza）是最早的与人对话程序，是由系统工程师约瑟夫·魏泽堡和精神病学家肯尼斯·科尔比在20 世纪60 年代共同编写的。是世界上第一个真正意义上的聊天机器人。他们将程序命名为伊莉莎。</view>
+    <!-- 1997年事件，显示在左边 -->
+    <view class="event left">
+      <view class="year">1997</view>
+      <image class="photo" src="/images/deep_blue.jpg"></image>
+      <view class="description">深蓝战胜国际象棋冠军。</view>
+    </view>
+    <!-- 左侧文字，显示在左边 -->
+    <view class="timeline-text">深蓝计算机是由IBM开发的象棋电脑，历史上第一个成功在标准国际象棋比赛中打败卫冕世界冠军的计算机系统。深蓝计算机是采用混合决策的方法。它将通用超级计算机处理器与象棋加速器芯片相结合。</view>
+    <!-- 2016年事件，显示在右边 -->
+    <view class="event right">
+      <view class="year">2016</view>
+      <image class="photo" src="/images/alpha_go.jpg"></image>
+      <view class="description">AlphaGo战胜围棋冠军。</view>
+    </view>
+    <!-- 右侧文字，显示在右边 -->
+    <view class="lastline-text">阿尔法围棋（AlphaGo）是第一个击败人类职业围棋选手、第一个战胜围棋世界冠军的人工智能机器人，由谷歌（Google）旗下DeepMind公司戴密斯·哈萨比斯领衔的团队开发。其主要工作原理是“深度学习”。</view>
+</view>
+<!-- pages/history/history.wxml -->
+<view class="page-container">
+  <!-- 背景图片层 -->
+  <view class="background-overlay">
+    <image class="bg-image" src="https://tse4-mm.cn.bing.net/th/id/OIP-C.dlUL04OpyT5CTfI1vIIozQHaQB?w=161&h=350&c=7&r=0&o=5&dpr=1.9&pid=1.7"></image>
+  </view>
+</view>

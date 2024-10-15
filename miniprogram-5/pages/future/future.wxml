@@ -1,0 +1,30 @@
+<view class="container">
+  <!-- 页面标题 -->
+  <view class="header">
+    <text class="title">AI的挑战与未来</text>
+  </view>
+
+  <!-- 简介 -->
+  <view class="description">
+    <text>人工智能的未来充满机遇与挑战，我们将面临技术、伦理、社会等方面的深刻变革。</text>
+  </view>
+
+  <!-- 内容卡片 -->
+  <view class="card">
+    <text class="card-title">技术挑战</text>
+    <text class="card-content">AI的技术发展中，算法优化、计算资源、数据隐私等问题亟待解决。</text>
+  </view>
+
+  <view class="card">
+    <text class="card-title">伦理问题</text>
+    <text class="card-content">AI伦理包括公平性、透明性以及决策责任等关键问题。</text>
+  </view>
+
+  <view class="card">
+    <text class="card-title">未来展望</text>
+    <text class="card-content">AI将在各个行业中产生深远影响，改变我们的生活、工作与社会结构。</text>
+  </view>
+
+  <!-- 返回按钮 -->
+  <button class="back-button" bindtap="goBack">返回首页</button>
+</view>

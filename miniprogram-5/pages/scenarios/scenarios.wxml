@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="header">
+    <text class="title">AI 进化模拟器</text>
+  </view>
+
+  <canvas canvas-id="aiCanvas" class="canvas"></canvas>
+
+  <button class="btn" bindtap="startEvolution">开始进化</button>
+  
+  <!-- 新按钮，清空进化数据 -->
+  <button class="btn" bindtap="clearEvolution">清空进化数据</button>
+
+  <scroll-view class="logs" scroll-y="true">
+    <view wx:for="{{logs}}" wx:key="*this">
+      <text>{{item}}</text>
+    </view>
+  </scroll-view>
+</view>

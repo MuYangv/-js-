@@ -1,0 +1,53 @@
+/* 容器布局 */
+.container {
+  padding: 20px;
+  background-color: #1e1e1e; /* 深色背景 */
+  min-height: 100vh; /* 全屏高度 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 页面标题 */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 中心文本 */
+.center-bold {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* 卡片样式 */
+.card {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #292929; /* 深色卡片 */
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px; /* 圆角 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 阴影 */
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+/* 卡片悬停与点击效果 */
+.card:hover {
+  background-color: #444444;
+  transform: translateY(-5px); /* 悬停时上升 */
+}
+
+.card:active {
+  background-color: #555555;
+  transform: scale(0.98); /* 点击时缩小 */
+}
